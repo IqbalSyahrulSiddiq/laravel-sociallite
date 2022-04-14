@@ -31,9 +31,9 @@ return [
     ],
 
     'google' => [
-        'client_id' => '965630981030-7os8l6qkcr79nu8826gmde6hh8r3ofvc.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'http://localhost:8000/auth/google/callback',
+        'client_id' => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_SECRET'),
+        'redirect' => env('GOOGLE_REDIRECT'),
     ],
 
 ];
