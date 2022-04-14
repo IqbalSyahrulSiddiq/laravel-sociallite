@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Oauth Google
 Route::get('auth/google', 'GoogleController@redirectToGoogle');
 Route::get('auth/google/callback', 'GoogleController@handleGoogleCallback');
+
+//Oauth Facebook
+Route::get('auth/facebook', 'FacebookController@redirectToFacebook');
+Route::get('auth/facebook/callback', 'FacebookController@handleFacebookCallback');

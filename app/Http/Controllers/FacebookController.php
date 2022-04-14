@@ -10,12 +10,12 @@ use App\User;
 
 class FacebookController extends Controller
 {
-    public function redirectToGoogle()
+    public function redirectToFacebook()
     {
         return Socialite::driver('facebook')->redirect();
     }
 
-    public function handleGoogleCallback()
+    public function handleFacebookCallback()
     {
         try {
     
