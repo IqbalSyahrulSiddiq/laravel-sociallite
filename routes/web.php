@@ -26,3 +26,7 @@ Route::get('auth/google/callback', 'GoogleController@handleGoogleCallback');
 //Oauth Facebook
 Route::get('auth/facebook', 'FacebookController@redirectToFacebook');
 Route::get('auth/facebook/callback', 'FacebookController@handleFacebookCallback');
+
+//Oauth Twitter
+Route::get('auth/twitter', 'TwitterController@redirectToTwitter');
+Route::get('auth/twitter/callback', 'TwitterController@handleTwitterCallback');

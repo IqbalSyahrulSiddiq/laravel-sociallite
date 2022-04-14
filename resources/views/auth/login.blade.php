@@ -62,12 +62,15 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
-
-                                <a href="{{ url('auth/google') }}" style="margin-top: 20px;" class="btn btn-lg btn-success btn-block">
-                                  <strong>Login With Google</strong>
+                                <br>
+                                <a href="{{ url('auth/google') }}" style="margin-top: 20px;" class="btn btn-lg btn-success">
+                                  <strong>Google</strong>
                                 </a> 
-                                <a href="{{ url('auth/facebook') }}" style="margin-top: 20px;" class="btn btn-lg btn-info btn-block">
-                                  <strong>Login With Facebook</strong>
+                                <a href="{{ url('auth/facebook') }}" style="margin-top: 20px;" class="btn btn-lg btn-info">
+                                  <strong>Facebook</strong>
+                                </a> 
+                                <a href="{{ url('auth/twitter') }}" style="margin-top: 20px;" class="btn btn-lg btn-warning">
+                                  <strong>Twitter</strong>
                                 </a> 
                             </div>
                         </div>
