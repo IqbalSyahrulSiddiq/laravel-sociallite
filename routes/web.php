@@ -34,3 +34,7 @@ Route::get('auth/twitter/callback', 'TwitterController@handleTwitterCallback');
 //Oauth Github
 Route::get('auth/github', 'GithubController@redirectToGithub');
 Route::get('auth/github/callback', 'GithubController@handleGithubCallback');
+
+//Oauth Linkedin
+Route::get('auth/linkedin', 'LinkedinController@redirectToLinkedin');
+Route::get('auth/linkedin/callback', 'LinkedinController@handleLinkedinCallback');

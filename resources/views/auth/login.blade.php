@@ -79,6 +79,9 @@
                                 <a href="{{ url('auth/github') }}" style="margin-top: 20px;" class="btn btn-sm btn-danger">
                                   <strong>Github</strong>
                                 </a> 
+                                <a href="{{ url('auth/linkedin') }}" style="margin-top: 20px;" class="btn btn-sm btn-primary">
+                                  <strong>LinkedIn</strong>
+                                </a> 
                             </div>
                         </div>
                     </form>
