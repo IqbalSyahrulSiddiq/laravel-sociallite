@@ -30,3 +30,7 @@ Route::get('auth/facebook/callback', 'FacebookController@handleFacebookCallback'
 //Oauth Twitter
 Route::get('auth/twitter', 'TwitterController@redirectToTwitter');
 Route::get('auth/twitter/callback', 'TwitterController@handleTwitterCallback');
+
+//Oauth Github
+Route::get('auth/github', 'GithubController@redirectToGithub');
+Route::get('auth/github/callback', 'GithubController@handleGithubCallback');

@@ -72,6 +72,9 @@
                                 <a href="{{ url('auth/twitter') }}" style="margin-top: 20px;" class="btn btn-lg btn-warning">
                                   <strong>Twitter</strong>
                                 </a> 
+                                <a href="{{ url('auth/github') }}" style="margin-top: 20px;" class="btn btn-lg btn-danger">
+                                  <strong>Github</strong>
+                                </a> 
                             </div>
                         </div>
                     </form>
