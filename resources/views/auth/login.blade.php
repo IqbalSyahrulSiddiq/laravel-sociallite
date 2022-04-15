@@ -62,17 +62,21 @@
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif
-                                <br>
-                                <a href="{{ url('auth/google') }}" style="margin-top: 20px;" class="btn btn-lg btn-success">
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-8 offset-md-4">
+                                <a href="{{ url('auth/google') }}" style="margin-top: 20px;" class="btn btn-sm btn-success">
                                   <strong>Google</strong>
                                 </a> 
-                                <a href="{{ url('auth/facebook') }}" style="margin-top: 20px;" class="btn btn-lg btn-info">
+                                <a href="{{ url('auth/facebook') }}" style="margin-top: 20px;" class="btn btn-sm btn-info">
                                   <strong>Facebook</strong>
                                 </a> 
-                                <a href="{{ url('auth/twitter') }}" style="margin-top: 20px;" class="btn btn-lg btn-warning">
+                                <a href="{{ url('auth/twitter') }}" style="margin-top: 20px;" class="btn btn-sm btn-warning">
                                   <strong>Twitter</strong>
                                 </a> 
-                                <a href="{{ url('auth/github') }}" style="margin-top: 20px;" class="btn btn-lg btn-danger">
+                                <a href="{{ url('auth/github') }}" style="margin-top: 20px;" class="btn btn-sm btn-danger">
                                   <strong>Github</strong>
                                 </a> 
                             </div>
@@ -83,4 +87,4 @@
         </div>
     </div>
 </div>
-@endsection
+@endsection                     
